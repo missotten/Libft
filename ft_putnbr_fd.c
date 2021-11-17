@@ -6,7 +6,7 @@
 /*   By: smissott <marvin@42lausanne.ch>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/13 13:28:10 by smissott          #+#    #+#             */
-/*   Updated: 2021/11/15 15:08:50 by smissott         ###   ########.fr       */
+/*   Updated: 2021/11/17 10:24:07 by smissott         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ void	ft_putnbr_fd(int n, int fd)
 			ft_putchar_fd('-', fd);
 			n = n * -1;
 		}
-		if (n >= 9)
+		if (n > 9)
 		{
 			ft_putnbr_fd(n / 10, fd);
 		}

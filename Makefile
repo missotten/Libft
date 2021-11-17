@@ -6,7 +6,7 @@
 #    By: smissott <marvin@42lausanne.ch>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/10/20 14:05:06 by smissott          #+#    #+#              #
-#    Updated: 2021/11/15 14:38:26 by smissott         ###   ########.fr        #
+#    Updated: 2021/11/17 10:22:07 by smissott         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -50,7 +50,7 @@ SRCS 	= 		ft_atoi.c		\
 
 OBJS	=		$(SRCS:.c=.o)
 
-CC		=		cc
+CC		=		gcc
 
 CFLAGS	+=		-Wall -Wextra -Werror
 
